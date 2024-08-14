@@ -1485,7 +1485,6 @@ HTTP 動詞は、リソースに対して実行する操作を示します。各
   <block id="82ef718f4ebe0c276814ee3d51e33361" category="list-text">SnapRestore</block>
   <block id="5bc075cee240a70af54270621d93765c" category="list-text">SnapVault</block>
   <block id="306a97cf9f5c4fb1198deb28baf7cf94" category="list-text">Storage VMディザスタリカバリ（SVM DR）</block>
-  <block id="8e59a8dddb8fd9611be1f2b3aca8c4fa" category="admonition">ONTAP Select 9.12.1以降では、最大16個の関係を持つソースとしてSVM DRがサポートされるようになりました。SVM DRのサポートは、ソースONTAPのバージョン+2の使用（9.12.1~9.14.1など）に限定されます。</block>
   <block id="a56a12489213d10b531398efee448f95" category="section-title">個別にライセンスされるONTAP の機能</block>
   <block id="585f4a038bba40a29999437c007446e9" category="paragraph">ONTAP 機能がデフォルトで有効になっていない場合は、次のライセンスを別途取得する必要があります。</block>
   <block id="cd4d0565c73e994a0df5b7c0a072acc6" category="list-text">Data Availability Service の略</block>
@@ -3773,4 +3772,5 @@ storage aggregate show-spare-disks</block>
   <block id="1c5ffa58ac07641f5cec5616c07b2ba2" category="sidebar">ONTAP Select イメージを追加します</block>
   <block id="0a15f7ba73868a32304fdf52855463c9" category="sidebar">ONTAP Select イメージを削除します</block>
   <block id="afc9d68a1be701598b5ef94dc0be2844" category="sidebar">2 ノードクラスタの Deploy をリカバリします</block>
+  <block id="f99bb666310fb365b4d0029c161a384b" category="admonition">ONTAP Select 9.12.1以降では、ソースとデスティネーションの両方としてSVM DRがサポートされるようになりました。関係の最大数は16です。SVM DRのサポートは、ソースONTAPのバージョン+2の使用に限定されます。たとえば、ONTAP Select 9.12.1ソースは、デスティネーションONTAPバージョン9.12.1、9.13.1、または9.14.1に接続できます。</block>
 </blocks>
