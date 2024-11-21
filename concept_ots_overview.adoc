@@ -88,6 +88,7 @@ ONTAP Select クラスタ内の各ノードには、 ONTAP のいくつかの機
 * 自律型ランサムウェア防御（ARP）
 * クラスタ IP スペース
 クラスタIPspaceに対する変更（ポート、仮想LAN（VLAN）、リンクアグリゲーショングループの追加や削除など）はサポートされていません。
+* ESXi 8.0 U3
 * ファイバチャネル
 Fibre ChannelおよびFibre Channel over Ethernetはサポートされていません。
 * ヘルスモニタ
